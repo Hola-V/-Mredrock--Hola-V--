@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:gravity="center"
+        android:background="#7A0099"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/touxiang"
+                android:id="@+id/id_tubiao"
+                android:layout_width="48dp"
+                android:layout_height="48dp"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/id_tubiaowenzi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="铛铛"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:background="#7a0099"
+                android:layout_gravity="center"
+                android:layout_marginLeft="150dp"
+                android:src="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+                android:id="@+id/id_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
